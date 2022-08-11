@@ -1,0 +1,22 @@
+{
+  "name": "QunKit",
+  "version": "0.1.0",
+  "summary": "A short description of QunKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qunwang6/QunKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qunwang6": "qunwang6@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qunwang6/QunKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QunKit/Classes/**/*"
+}
