@@ -1,5 +1,5 @@
 PODS:
-  - QunKit (0.1.1)
+  - QunKit (0.1.2)
 
 DEPENDENCIES:
   - QunKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QunKit: 724aa0eab04291f598f8d5c8dc0bfacb4fb4b5fa
+  QunKit: 6c4b54ec2475db129334e807557602605ec9b46f
 
 PODFILE CHECKSUM: 66ce527ac31639823ee0fb7a403485a0d7a626d2
 
