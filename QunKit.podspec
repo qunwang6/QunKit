@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QunKit'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of QunKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,20 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'QunKit/Classes/**/*'
   
-  s.resource_bundles = {
-    'QunKit' => ['QunKit/Assets/*']
-  }
+  # s.resource_bundles = {
+  #   'QunKit' => ['QunKit/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  # FaceLandMark
-
-  # spec.subspec 'FaceLandMark' do |lb|
-    lb.vendored_frameworks = 'QunKit/Classes/MHSDK/Framework/FaceLandMark.framework'
-  # end
-
-  # spec.subspec 'MHBeautySDK' do |lb|
-    lb.vendored_frameworks = 'QunKit/Classes/MHSDK/Framework/MHBeautySDK.framework'
-  # end
 end
